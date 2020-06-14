@@ -16,7 +16,7 @@ namespace WindowsFormsApp1
         {
             btnSave.Enabled = true;
             btnCancel.Enabled = true;
-            cd_userTextBox.Enabled = true;
+            cd_userTextBox.Enabled = false;
             nm_nameTextBox.Enabled = true;
             cd_levelTextBox.Enabled = true;
             nm_loginTextBox.Enabled = true;
@@ -65,6 +65,11 @@ namespace WindowsFormsApp1
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+            if(cd_levelTextBox.Text != "1" && cd_levelTextBox.Text != "2" && cd_levelTextBox.Text != "3")
+            {
+                MessageBox.Show("Nível inválido, tente novamente...");
+                return;
+            }
             Disable();
         }
 
@@ -78,6 +83,15 @@ namespace WindowsFormsApp1
             if (tb_userBindingSource.Count > 0)
             {
                 Enable();
+            }
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if(tb_userBindingSource.Count > 0)
+            {
+                tb_userBindingSource.RemoveCurrent();
+                //this.tb_userTableAdapter.Update(this.Database1DataSet.tb_user);
             }
         }
     }

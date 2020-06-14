@@ -63,9 +63,9 @@
             cd_userLabel.AutoSize = true;
             cd_userLabel.Location = new System.Drawing.Point(9, 83);
             cd_userLabel.Name = "cd_userLabel";
-            cd_userLabel.Size = new System.Drawing.Size(43, 13);
+            cd_userLabel.Size = new System.Drawing.Size(40, 13);
             cd_userLabel.TabIndex = 10;
-            cd_userLabel.Text = "Usuário";
+            cd_userLabel.Text = "Código";
             // 
             // nm_nameLabel
             // 
@@ -206,6 +206,7 @@
             this.btnDelete.TabIndex = 0;
             this.btnDelete.Text = "Excluir";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // database1DataSet1
             // 
@@ -232,7 +233,7 @@
             this.cd_userTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tb_userBindingSource, "cd_user", true));
             this.cd_userTextBox.Location = new System.Drawing.Point(56, 80);
             this.cd_userTextBox.Name = "cd_userTextBox";
-            this.cd_userTextBox.Size = new System.Drawing.Size(346, 20);
+            this.cd_userTextBox.Size = new System.Drawing.Size(36, 20);
             this.cd_userTextBox.TabIndex = 11;
             // 
             // nm_nameTextBox
@@ -310,8 +311,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnPrevious;
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnNew;
