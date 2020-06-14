@@ -61,7 +61,7 @@
             // cd_userLabel
             // 
             cd_userLabel.AutoSize = true;
-            cd_userLabel.Location = new System.Drawing.Point(110, 36);
+            cd_userLabel.Location = new System.Drawing.Point(9, 83);
             cd_userLabel.Name = "cd_userLabel";
             cd_userLabel.Size = new System.Drawing.Size(43, 13);
             cd_userLabel.TabIndex = 10;
@@ -70,7 +70,7 @@
             // nm_nameLabel
             // 
             nm_nameLabel.AutoSize = true;
-            nm_nameLabel.Location = new System.Drawing.Point(110, 62);
+            nm_nameLabel.Location = new System.Drawing.Point(9, 109);
             nm_nameLabel.Name = "nm_nameLabel";
             nm_nameLabel.Size = new System.Drawing.Size(35, 13);
             nm_nameLabel.TabIndex = 12;
@@ -79,7 +79,7 @@
             // cd_levelLabel
             // 
             cd_levelLabel.AutoSize = true;
-            cd_levelLabel.Location = new System.Drawing.Point(110, 88);
+            cd_levelLabel.Location = new System.Drawing.Point(9, 136);
             cd_levelLabel.Name = "cd_levelLabel";
             cd_levelLabel.Size = new System.Drawing.Size(86, 13);
             cd_levelLabel.TabIndex = 14;
@@ -88,7 +88,7 @@
             // nm_loginLabel
             // 
             nm_loginLabel.AutoSize = true;
-            nm_loginLabel.Location = new System.Drawing.Point(110, 114);
+            nm_loginLabel.Location = new System.Drawing.Point(9, 164);
             nm_loginLabel.Name = "nm_loginLabel";
             nm_loginLabel.Size = new System.Drawing.Size(33, 13);
             nm_loginLabel.TabIndex = 16;
@@ -97,7 +97,7 @@
             // passwordLabel
             // 
             passwordLabel.AutoSize = true;
-            passwordLabel.Location = new System.Drawing.Point(110, 140);
+            passwordLabel.Location = new System.Drawing.Point(9, 187);
             passwordLabel.Name = "passwordLabel";
             passwordLabel.Size = new System.Drawing.Size(38, 13);
             passwordLabel.TabIndex = 18;
@@ -106,7 +106,7 @@
             // btn3
             // 
             this.btn3.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.btn3.Location = new System.Drawing.Point(113, 238);
+            this.btn3.Location = new System.Drawing.Point(224, 283);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(75, 23);
             this.btn3.TabIndex = 0;
@@ -116,7 +116,7 @@
             // btn4
             // 
             this.btn4.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.btn4.Location = new System.Drawing.Point(194, 238);
+            this.btn4.Location = new System.Drawing.Point(389, 283);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(75, 23);
             this.btn4.TabIndex = 0;
@@ -126,7 +126,7 @@
             // btn5
             // 
             this.btn5.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.btn5.Location = new System.Drawing.Point(275, 238);
+            this.btn5.Location = new System.Drawing.Point(470, 283);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(75, 23);
             this.btn5.TabIndex = 0;
@@ -136,7 +136,7 @@
             // btn6
             // 
             this.btn6.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.btn6.Location = new System.Drawing.Point(356, 238);
+            this.btn6.Location = new System.Drawing.Point(305, 283);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(75, 23);
             this.btn6.TabIndex = 0;
@@ -146,7 +146,7 @@
             // btn7
             // 
             this.btn7.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.btn7.Location = new System.Drawing.Point(113, 267);
+            this.btn7.Location = new System.Drawing.Point(327, 213);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(75, 23);
             this.btn7.TabIndex = 0;
@@ -156,7 +156,7 @@
             // btn8
             // 
             this.btn8.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.btn8.Location = new System.Drawing.Point(194, 267);
+            this.btn8.Location = new System.Drawing.Point(143, 283);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(75, 23);
             this.btn8.TabIndex = 0;
@@ -166,7 +166,7 @@
             // btn9
             // 
             this.btn9.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.btn9.Location = new System.Drawing.Point(275, 267);
+            this.btn9.Location = new System.Drawing.Point(519, 12);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(75, 23);
             this.btn9.TabIndex = 0;
@@ -176,7 +176,7 @@
             // btn10
             // 
             this.btn10.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.btn10.Location = new System.Drawing.Point(356, 267);
+            this.btn10.Location = new System.Drawing.Point(12, 12);
             this.btn10.Name = "btn10";
             this.btn10.Size = new System.Drawing.Size(75, 23);
             this.btn10.TabIndex = 0;
@@ -186,7 +186,7 @@
             // btn11
             // 
             this.btn11.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.btn11.Location = new System.Drawing.Point(437, 267);
+            this.btn11.Location = new System.Drawing.Point(62, 283);
             this.btn11.Name = "btn11";
             this.btn11.Size = new System.Drawing.Size(75, 23);
             this.btn11.TabIndex = 0;
@@ -196,7 +196,7 @@
             // btn12
             // 
             this.btn12.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.btn12.Location = new System.Drawing.Point(437, 238);
+            this.btn12.Location = new System.Drawing.Point(246, 213);
             this.btn12.Name = "btn12";
             this.btn12.Size = new System.Drawing.Size(75, 23);
             this.btn12.TabIndex = 0;
@@ -226,7 +226,7 @@
             // cd_userTextBox
             // 
             this.cd_userTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tb_userBindingSource, "cd_user", true));
-            this.cd_userTextBox.Location = new System.Drawing.Point(159, 33);
+            this.cd_userTextBox.Location = new System.Drawing.Point(56, 80);
             this.cd_userTextBox.Name = "cd_userTextBox";
             this.cd_userTextBox.Size = new System.Drawing.Size(346, 20);
             this.cd_userTextBox.TabIndex = 11;
@@ -234,7 +234,7 @@
             // nm_nameTextBox
             // 
             this.nm_nameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tb_userBindingSource, "nm_name", true));
-            this.nm_nameTextBox.Location = new System.Drawing.Point(159, 59);
+            this.nm_nameTextBox.Location = new System.Drawing.Point(56, 106);
             this.nm_nameTextBox.Name = "nm_nameTextBox";
             this.nm_nameTextBox.Size = new System.Drawing.Size(346, 20);
             this.nm_nameTextBox.TabIndex = 13;
@@ -242,7 +242,7 @@
             // cd_levelTextBox
             // 
             this.cd_levelTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tb_userBindingSource, "cd_level", true));
-            this.cd_levelTextBox.Location = new System.Drawing.Point(202, 85);
+            this.cd_levelTextBox.Location = new System.Drawing.Point(101, 133);
             this.cd_levelTextBox.Name = "cd_levelTextBox";
             this.cd_levelTextBox.Size = new System.Drawing.Size(35, 20);
             this.cd_levelTextBox.TabIndex = 15;
@@ -250,7 +250,7 @@
             // nm_loginTextBox
             // 
             this.nm_loginTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tb_userBindingSource, "nm_login", true));
-            this.nm_loginTextBox.Location = new System.Drawing.Point(159, 111);
+            this.nm_loginTextBox.Location = new System.Drawing.Point(56, 161);
             this.nm_loginTextBox.Name = "nm_loginTextBox";
             this.nm_loginTextBox.Size = new System.Drawing.Size(346, 20);
             this.nm_loginTextBox.TabIndex = 17;
@@ -258,8 +258,9 @@
             // passwordTextBox
             // 
             this.passwordTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tb_userBindingSource, "password", true));
-            this.passwordTextBox.Location = new System.Drawing.Point(159, 137);
+            this.passwordTextBox.Location = new System.Drawing.Point(56, 187);
             this.passwordTextBox.Name = "passwordTextBox";
+            this.passwordTextBox.PasswordChar = '*';
             this.passwordTextBox.Size = new System.Drawing.Size(346, 20);
             this.passwordTextBox.TabIndex = 19;
             // 
