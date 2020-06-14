@@ -132,6 +132,7 @@
             this.btnNew.TabIndex = 0;
             this.btnNew.Text = "Novo";
             this.btnNew.UseVisualStyleBackColor = true;
+            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
             // btnChange
             // 
@@ -142,6 +143,7 @@
             this.btnChange.TabIndex = 0;
             this.btnChange.Text = "Alterar";
             this.btnChange.UseVisualStyleBackColor = true;
+            this.btnChange.Click += new System.EventHandler(this.btnChange_Click);
             // 
             // btnSave
             // 
@@ -152,6 +154,7 @@
             this.btnSave.TabIndex = 0;
             this.btnSave.Text = "Salvar";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnCancel
             // 
@@ -162,6 +165,7 @@
             this.btnCancel.TabIndex = 0;
             this.btnCancel.Text = "Cancelar";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnSearch
             // 
